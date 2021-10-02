@@ -22,8 +22,12 @@ struct FoodMenuCellData {
 }
 class FoodMenuVC: UIViewController {
     
-    let json = "{ \"people\": [{ \"firstName\": \"Paul\", \"lastName\": \"Hudson\", \"isAlive\": true }, { \"firstName\": \"Angela\", \"lastName\": \"Merkel\", \"isAlive\": true }, { \"firstName\": \"George\", \"lastName\": \"Washington\", \"isAlive\": false } ] }"
+    var restaurant: [String:Int] =  ["id":1]
     
+        
+    var data: [FoodMenuCellData] = []
+
+
     var appDelegate: AppDelegate {
         get {
             return UIApplication.shared.delegate as! AppDelegate
@@ -42,7 +46,6 @@ class FoodMenuVC: UIViewController {
         }
     }
     
-    var data: [FoodMenuCellData] = []
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -161,8 +164,14 @@ extension FoodMenuVC: UITableViewDelegate, UITableViewDataSource{
             }
         }
         print("cart 🛒🛒🛒 \(cartData)")
-        appDelegate.carItems["1"] = cartData
+        guard let id = restaurant["id"] else {
+           return
+        }
+       
+        appDelegate.carItems[String(id)] = cartData
         setCartIconBadge(cartItemsCount)
+        
+      
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
