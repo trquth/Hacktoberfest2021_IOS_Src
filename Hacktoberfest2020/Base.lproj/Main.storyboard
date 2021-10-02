@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sgl-Pw-kEN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3cl-V7-u2O">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -254,6 +254,53 @@
             </objects>
             <point key="canvasLocation" x="2555.072463768116" y="828.34821428571422"/>
         </scene>
+        <!--Food CartVC-->
+        <scene sceneID="k7N-zb-ucB">
+            <objects>
+                <viewController id="hb9-VR-Zee" customClass="FoodCartVC" customModule="Hacktoberfest2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nng-0t-sGb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="esa-aQ-Pr5">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="M50-J2-bh0">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Pyk-l8-ucC">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="MWS-qA-rfr">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V71-jZ-ObL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="esa-aQ-Pr5" firstAttribute="top" secondItem="V71-jZ-ObL" secondAttribute="top" id="0t6-hg-8T0"/>
+                            <constraint firstItem="esa-aQ-Pr5" firstAttribute="leading" secondItem="V71-jZ-ObL" secondAttribute="leading" id="99n-mO-3Bu"/>
+                            <constraint firstItem="V71-jZ-ObL" firstAttribute="trailing" secondItem="esa-aQ-Pr5" secondAttribute="trailing" id="Ybh-m9-ohz"/>
+                            <constraint firstItem="V71-jZ-ObL" firstAttribute="bottom" secondItem="esa-aQ-Pr5" secondAttribute="bottom" id="bH9-Qx-r1s"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tws-2S-3SI"/>
+                    <connections>
+                        <outlet property="collectionView" destination="esa-aQ-Pr5" id="QSq-PT-se5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tyB-6J-Wwd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3560.8695652173915" y="1600.4464285714284"/>
+        </scene>
         <!--Client HomeVC-->
         <scene sceneID="Fsl-Z6-rt6">
             <objects>
@@ -429,7 +476,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="meH-dh-u9S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6302.898550724638" y="1238.1696428571429"/>
+            <point key="canvasLocation" x="7213.04347826087" y="1238.1696428571429"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="E0h-hp-AoS">
@@ -447,7 +494,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1XS-wl-xOT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5392.753623188406" y="1238.1696428571429"/>
+            <point key="canvasLocation" x="6302.898550724638" y="1238.1696428571429"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SLE-y4-qxR">
@@ -466,6 +513,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGB-GZ-oYz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1644.9275362318842" y="828.34821428571422"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aCS-5W-ZUO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3cl-V7-u2O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="d7Q-25-6NE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hb9-VR-Zee" kind="relationship" relationship="rootViewController" id="Pje-Pc-hLI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zbN-sA-LhG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2650.7246376811595" y="1600.4464285714284"/>
         </scene>
     </scenes>
     <resources>
