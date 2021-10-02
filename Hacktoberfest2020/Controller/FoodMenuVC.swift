@@ -22,6 +22,7 @@ struct FoodMenuCellData {
 }
 class FoodMenuVC: UIViewController {
     
+    //https://stackoverflow.com/questions/24033393/swift-declare-an-empty-dictionary
     var restaurant: [String:Int] =  ["id":1]
     
         
