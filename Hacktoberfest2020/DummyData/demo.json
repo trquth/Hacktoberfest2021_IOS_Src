@@ -1,0 +1,49 @@
+{
+"data": [
+    {
+        "id": 1,
+        "name": "Пабы и бары",
+        "image": "http://95.46.99.250:9095/storage/photos/beer@2x.png"
+    },
+    {
+        "id": 2,
+        "name": "Кафе",
+        "image": "http://95.46.99.250:9095/storage/photos/coffee@3x.png"
+    },
+    {
+        "id": 3,
+        "name": "Ночной клуб",
+        "image": "http://95.46.99.250:9095/storage/photos/0201f7523bc2028f174710b51379e432.png"
+    },
+    {
+        "id": 4,
+        "name": "Ресторан",
+        "image": "http://95.46.99.250:9095/storage/photos/restaurants@3x.png"
+    },
+    {
+        "id": 5,
+        "name": "Караоке-клуб",
+        "image": "http://95.46.99.250:9095/storage/photos/microphone.png"
+    },
+    {
+        "id": 6,
+        "name": "Суши-бар",
+        "image": "http://95.46.99.250:9095/storage/photos/sushi.png"
+    },
+    {
+        "id": 7,
+        "name": "Пиццерии",
+        "image": "http://95.46.99.250:9095/storage/photos/pizza.png"
+    },
+    {
+        "id": 8,
+        "name": "Кальянная",
+        "image": "http://95.46.99.250:9095/storage/photos/c111d1e5ad6b90b61ac36836d220ebba.png"
+    },
+    {
+        "id": 9,
+        "name": "Общая",
+        "image": "http://95.46.99.250:9095/storage/photos/Group 315@3x.png"
+    }
+]
+}

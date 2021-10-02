@@ -1,0 +1,56 @@
+{
+    "menu": [
+        {
+            "category": "Appetizer",
+            "food":[
+                {
+                    "id":0,
+                    "foodName" : "Crispy McNuggets",
+                    "price": 6.49
+                },
+                {
+                    "id":1,
+                    "foodName" : "BBQ McNuggets",
+                    "price": 6.49
+                },
+                {
+                    "id":2,
+                    "foodName" : "Mozzarella  Sticks",
+                    "price": 5.49
+                },
+            ],
+            
+        },
+        {
+            "category":"Burger",
+            "food":[ {
+                "id":3,
+                "foodName" : "Junior McChicken",
+                "price":1.99
+            },
+            {
+                "id":4,
+                "foodName" : "Angus Grilled",
+                "price":3.99
+            },
+            {
+                "id":5,
+                "foodName" : "Tripple McChicken",
+                "price":6.99
+            },]
+        },
+        {
+            "category":"Beverages",
+            "food":[{
+                "id":6,
+                "foodName" : "Tripple Thick Milkshake",
+                "price":6.99
+            },
+            {
+                "id":7,
+                "foodName" : "Pepsi",
+                "price":3.49
+            },]
+        }
+    ]
+}

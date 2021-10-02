@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E46BD1326B4723D006B870D /* CustomizedFoodChainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BD1226B4723D006B870D /* CustomizedFoodChainCell.swift */; };
+		6E46BD1626B47EE4006B870D /* NewFoodChainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BD1426B47EE4006B870D /* NewFoodChainCell.swift */; };
+		6E46BD1726B47EE4006B870D /* NewFoodChainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E46BD1526B47EE4006B870D /* NewFoodChainCell.xib */; };
+		6E46BD1926B48238006B870D /* FoodChainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BD1826B48238006B870D /* FoodChainVC.swift */; };
+		6E46BD1C26B483CD006B870D /* FoodChainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BD1A26B483CD006B870D /* FoodChainViewCell.swift */; };
+		6E46BD1D26B483CD006B870D /* FoodChainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E46BD1B26B483CD006B870D /* FoodChainViewCell.xib */; };
+		6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A092530A68A0070DA6C /* AppDelegate.swift */; };
+		6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */; };
+		6E9F4A0E2530A68A0070DA6C /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0D2530A68A0070DA6C /* AuthenticationVC.swift */; };
+		6E9F4A112530A68A0070DA6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0F2530A68A0070DA6C /* Main.storyboard */; };
+		6E9F4A132530A68A0070DA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A122530A68A0070DA6C /* Assets.xcassets */; };
+		6E9F4A162530A68A0070DA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A142530A68A0070DA6C /* LaunchScreen.storyboard */; };
+		6EB1841727002DCE00F0779F /* FoodMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1841627002DCE00F0779F /* FoodMenuVC.swift */; };
+		6EB1841B2700301E00F0779F /* FoodMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB184192700301E00F0779F /* FoodMenuCell.swift */; };
+		6EB1841C2700301E00F0779F /* FoodMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB1841A2700301E00F0779F /* FoodMenuCell.xib */; };
+		6EB1841F2700DD2000F0779F /* foodmenu.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB1841E2700DD2000F0779F /* foodmenu.json */; };
+		6EB184212700E23000F0779F /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EB184202700E23000F0779F /* demo.json */; };
+		6EB1842C270222DD00F0779F /* FoodMenuSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1842A270222DD00F0779F /* FoodMenuSectionHeader.swift */; };
+		6EB1842D270222DD00F0779F /* FoodMenuSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB1842B270222DD00F0779F /* FoodMenuSectionHeader.xib */; };
+		6EDEBDA926A9628F005F71C3 /* AroundCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDA826A9628F005F71C3 /* AroundCircleButton.swift */; };
+		6EDEBDAB26A98934005F71C3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDAA26A98934005F71C3 /* LoginVC.swift */; };
+		6EDEBDAE26A98979005F71C3 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDAD26A98979005F71C3 /* UIColorExt.swift */; };
+		6EDEBDB026A9B4B7005F71C3 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDAF26A9B4B7005F71C3 /* Client.swift */; };
+		6EDEBDB226A9BC43005F71C3 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDB126A9BC43005F71C3 /* StringExt.swift */; };
+		6EDEBDB426A9C4E9005F71C3 /* ClientHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDB326A9C4E9005F71C3 /* ClientHomeVC.swift */; };
+		6EDEBDB726A9D455005F71C3 /* FoodCourt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDB626A9D455005F71C3 /* FoodCourt.swift */; };
+		6EDEBDB926A9D558005F71C3 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDB826A9D558005F71C3 /* Restaurant.swift */; };
+		6EDEBDC126AB173E005F71C3 /* FoodChainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEBDC026AB173E005F71C3 /* FoodChainCell.xib */; };
+		6EDEBDC326AB174F005F71C3 /* FoodChainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDC226AB174F005F71C3 /* FoodChainCell.swift */; };
+		6EDEBDC626AB29A0005F71C3 /* VendorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDC426AB29A0005F71C3 /* VendorCell.swift */; };
+		6EDEBDC726AB29A0005F71C3 /* VendorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEBDC526AB29A0005F71C3 /* VendorCell.xib */; };
+		6EE1079E26B4FB3D00456C28 /* FoodJoinMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1079D26B4FB3D00456C28 /* FoodJoinMenuVC.swift */; };
+		6EE107A126B4FEBC00456C28 /* ExpandedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1079F26B4FEBC00456C28 /* ExpandedCell.swift */; };
+		6EE107A226B4FEBC00456C28 /* ExpandedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE107A026B4FEBC00456C28 /* ExpandedCell.xib */; };
+		6EE107A426B5154A00456C28 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE107A326B5154A00456C28 /* FoodItem.swift */; };
+		6EE107AB26B572F500456C28 /* FoodMenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE107A926B572F500456C28 /* FoodMenuHeader.swift */; };
+		6EE107AC26B572F500456C28 /* FoodMenuHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE107AA26B572F500456C28 /* FoodMenuHeader.xib */; };
+		6EE107AE26B5867400456C28 /* CustomizedFoodMenuHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE107AD26B5867400456C28 /* CustomizedFoodMenuHeader.xib */; };
+		6EE107B026B586D800456C28 /* CustomizedFoodMenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE107AF26B586D800456C28 /* CustomizedFoodMenuHeader.swift */; };
+		D286647A5F04E8B7E03F7A5D /* Pods_Hacktoberfest2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8D42A705D93C7968BC5138 /* Pods_Hacktoberfest2020.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A6F5020D04BDDE348247A50 /* Pods-Hacktoberfest2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktoberfest2020.debug.xcconfig"; path = "Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020.debug.xcconfig"; sourceTree = "<group>"; };
+		6E46BD1226B4723D006B870D /* CustomizedFoodChainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedFoodChainCell.swift; sourceTree = "<group>"; };
+		6E46BD1426B47EE4006B870D /* NewFoodChainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFoodChainCell.swift; sourceTree = "<group>"; };
+		6E46BD1526B47EE4006B870D /* NewFoodChainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewFoodChainCell.xib; sourceTree = "<group>"; };
+		6E46BD1826B48238006B870D /* FoodChainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChainVC.swift; sourceTree = "<group>"; };
+		6E46BD1A26B483CD006B870D /* FoodChainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChainViewCell.swift; sourceTree = "<group>"; };
+		6E46BD1B26B483CD006B870D /* FoodChainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodChainViewCell.xib; sourceTree = "<group>"; };
+		6E46BD1E26B48BC7006B870D /* Hacktoberfest2020-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hacktoberfest2020-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E9F4A062530A68A0070DA6C /* Hacktoberfest2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hacktoberfest2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9F4A092530A68A0070DA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E9F4A0D2530A68A0070DA6C /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
+		6E9F4A102530A68A0070DA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E9F4A122530A68A0070DA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E9F4A152530A68A0070DA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E9F4A172530A68A0070DA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB1841627002DCE00F0779F /* FoodMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuVC.swift; sourceTree = "<group>"; };
+		6EB184192700301E00F0779F /* FoodMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuCell.swift; sourceTree = "<group>"; };
+		6EB1841A2700301E00F0779F /* FoodMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodMenuCell.xib; sourceTree = "<group>"; };
+		6EB1841E2700DD2000F0779F /* foodmenu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = foodmenu.json; sourceTree = "<group>"; };
+		6EB184202700E23000F0779F /* demo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
+		6EB1842A270222DD00F0779F /* FoodMenuSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuSectionHeader.swift; sourceTree = "<group>"; };
+		6EB1842B270222DD00F0779F /* FoodMenuSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodMenuSectionHeader.xib; sourceTree = "<group>"; };
+		6EDEBDA826A9628F005F71C3 /* AroundCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundCircleButton.swift; sourceTree = "<group>"; };
+		6EDEBDAA26A98934005F71C3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6EDEBDAD26A98979005F71C3 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		6EDEBDAF26A9B4B7005F71C3 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		6EDEBDB126A9BC43005F71C3 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		6EDEBDB326A9C4E9005F71C3 /* ClientHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHomeVC.swift; sourceTree = "<group>"; };
+		6EDEBDB626A9D455005F71C3 /* FoodCourt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCourt.swift; sourceTree = "<group>"; };
+		6EDEBDB826A9D558005F71C3 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		6EDEBDC026AB173E005F71C3 /* FoodChainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodChainCell.xib; sourceTree = "<group>"; };
+		6EDEBDC226AB174F005F71C3 /* FoodChainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChainCell.swift; sourceTree = "<group>"; };
+		6EDEBDC426AB29A0005F71C3 /* VendorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorCell.swift; sourceTree = "<group>"; };
+		6EDEBDC526AB29A0005F71C3 /* VendorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VendorCell.xib; sourceTree = "<group>"; };
+		6EE1079D26B4FB3D00456C28 /* FoodJoinMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodJoinMenuVC.swift; sourceTree = "<group>"; };
+		6EE1079F26B4FEBC00456C28 /* ExpandedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedCell.swift; sourceTree = "<group>"; };
+		6EE107A026B4FEBC00456C28 /* ExpandedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandedCell.xib; sourceTree = "<group>"; };
+		6EE107A326B5154A00456C28 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		6EE107A926B572F500456C28 /* FoodMenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMenuHeader.swift; sourceTree = "<group>"; };
+		6EE107AA26B572F500456C28 /* FoodMenuHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodMenuHeader.xib; sourceTree = "<group>"; };
+		6EE107AD26B5867400456C28 /* CustomizedFoodMenuHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomizedFoodMenuHeader.xib; sourceTree = "<group>"; };
+		6EE107AF26B586D800456C28 /* CustomizedFoodMenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedFoodMenuHeader.swift; sourceTree = "<group>"; };
+		9A8D42A705D93C7968BC5138 /* Pods_Hacktoberfest2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hacktoberfest2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87640EB3FAE9ED0A3055F70 /* Pods-Hacktoberfest2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktoberfest2020.release.xcconfig"; path = "Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E9F4A032530A68A0070DA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D286647A5F04E8B7E03F7A5D /* Pods_Hacktoberfest2020.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6317F91B6C0C43E583D21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8D42A705D93C7968BC5138 /* Pods_Hacktoberfest2020.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E9F49FD2530A6890070DA6C = {
+			isa = PBXGroup;
+			children = (
+				6E9F4A082530A68A0070DA6C /* Hacktoberfest2020 */,
+				6E9F4A072530A68A0070DA6C /* Products */,
+				D46FAFA7AF4B22599A3C110A /* Pods */,
+				4A6317F91B6C0C43E583D21E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E9F4A072530A68A0070DA6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F4A062530A68A0070DA6C /* Hacktoberfest2020.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E9F4A082530A68A0070DA6C /* Hacktoberfest2020 */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1841D2700DD0800F0779F /* DummyData */,
+				6EDEBDB526A9D0D6005F71C3 /* XIB */,
+				6EDEBDAC26A98963005F71C3 /* Extension */,
+				6EDEBDA726A95DE6005F71C3 /* Network */,
+				6EDEBDA626A95DD7005F71C3 /* View */,
+				6EDEBDA526A95DD0005F71C3 /* Model */,
+				6EDEBDA326A95D8C005F71C3 /* Controller */,
+				6E9F4A092530A68A0070DA6C /* AppDelegate.swift */,
+				6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */,
+				6E9F4A0F2530A68A0070DA6C /* Main.storyboard */,
+				6E9F4A122530A68A0070DA6C /* Assets.xcassets */,
+				6E9F4A142530A68A0070DA6C /* LaunchScreen.storyboard */,
+				6E9F4A172530A68A0070DA6C /* Info.plist */,
+				6E46BD1E26B48BC7006B870D /* Hacktoberfest2020-Bridging-Header.h */,
+			);
+			path = Hacktoberfest2020;
+			sourceTree = "<group>";
+		};
+		6EB1841827002FE900F0779F /* FoodMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6EB184192700301E00F0779F /* FoodMenuCell.swift */,
+				6EB1841A2700301E00F0779F /* FoodMenuCell.xib */,
+				6EB1842A270222DD00F0779F /* FoodMenuSectionHeader.swift */,
+				6EB1842B270222DD00F0779F /* FoodMenuSectionHeader.xib */,
+			);
+			path = FoodMenu;
+			sourceTree = "<group>";
+		};
+		6EB1841D2700DD0800F0779F /* DummyData */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1841E2700DD2000F0779F /* foodmenu.json */,
+				6EB184202700E23000F0779F /* demo.json */,
+			);
+			path = DummyData;
+			sourceTree = "<group>";
+		};
+		6EDEBDA326A95D8C005F71C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F4A0D2530A68A0070DA6C /* AuthenticationVC.swift */,
+				6EDEBDAA26A98934005F71C3 /* LoginVC.swift */,
+				6EDEBDB326A9C4E9005F71C3 /* ClientHomeVC.swift */,
+				6E46BD1826B48238006B870D /* FoodChainVC.swift */,
+				6EE1079D26B4FB3D00456C28 /* FoodJoinMenuVC.swift */,
+				6EB1841627002DCE00F0779F /* FoodMenuVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EDEBDA526A95DD0005F71C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEBDB626A9D455005F71C3 /* FoodCourt.swift */,
+				6EDEBDB826A9D558005F71C3 /* Restaurant.swift */,
+				6EE107A326B5154A00456C28 /* FoodItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EDEBDA626A95DD7005F71C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEBDA826A9628F005F71C3 /* AroundCircleButton.swift */,
+				6E46BD1226B4723D006B870D /* CustomizedFoodChainCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EDEBDA726A95DE6005F71C3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEBDAF26A9B4B7005F71C3 /* Client.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6EDEBDAC26A98963005F71C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEBDAD26A98979005F71C3 /* UIColorExt.swift */,
+				6EDEBDB126A9BC43005F71C3 /* StringExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6EDEBDB526A9D0D6005F71C3 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				6EB1841827002FE900F0779F /* FoodMenu */,
+				6EDEBDC026AB173E005F71C3 /* FoodChainCell.xib */,
+				6EDEBDC226AB174F005F71C3 /* FoodChainCell.swift */,
+				6EDEBDC426AB29A0005F71C3 /* VendorCell.swift */,
+				6EDEBDC526AB29A0005F71C3 /* VendorCell.xib */,
+				6E46BD1426B47EE4006B870D /* NewFoodChainCell.swift */,
+				6E46BD1526B47EE4006B870D /* NewFoodChainCell.xib */,
+				6E46BD1A26B483CD006B870D /* FoodChainViewCell.swift */,
+				6E46BD1B26B483CD006B870D /* FoodChainViewCell.xib */,
+				6EE1079F26B4FEBC00456C28 /* ExpandedCell.swift */,
+				6EE107A026B4FEBC00456C28 /* ExpandedCell.xib */,
+				6EE107A926B572F500456C28 /* FoodMenuHeader.swift */,
+				6EE107AA26B572F500456C28 /* FoodMenuHeader.xib */,
+				6EE107AD26B5867400456C28 /* CustomizedFoodMenuHeader.xib */,
+				6EE107AF26B586D800456C28 /* CustomizedFoodMenuHeader.swift */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		D46FAFA7AF4B22599A3C110A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A6F5020D04BDDE348247A50 /* Pods-Hacktoberfest2020.debug.xcconfig */,
+				F87640EB3FAE9ED0A3055F70 /* Pods-Hacktoberfest2020.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E9F4A052530A68A0070DA6C /* Hacktoberfest2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9F4A1A2530A68A0070DA6C /* Build configuration list for PBXNativeTarget "Hacktoberfest2020" */;
+			buildPhases = (
+				50717904E9BD62677C7CB145 /* [CP] Check Pods Manifest.lock */,
+				6E9F4A022530A68A0070DA6C /* Sources */,
+				6E9F4A032530A68A0070DA6C /* Frameworks */,
+				6E9F4A042530A68A0070DA6C /* Resources */,
+				56075CFDAAA31516261AEC7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hacktoberfest2020;
+			productName = Hacktoberfest2020;
+			productReference = 6E9F4A062530A68A0070DA6C /* Hacktoberfest2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E9F49FE2530A6890070DA6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6E9F4A052530A68A0070DA6C = {
+						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 6E9F4A012530A6890070DA6C /* Build configuration list for PBXProject "Hacktoberfest2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E9F49FD2530A6890070DA6C;
+			productRefGroup = 6E9F4A072530A68A0070DA6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E9F4A052530A68A0070DA6C /* Hacktoberfest2020 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E9F4A042530A68A0070DA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9F4A162530A68A0070DA6C /* LaunchScreen.storyboard in Resources */,
+				6EB184212700E23000F0779F /* demo.json in Resources */,
+				6EDEBDC126AB173E005F71C3 /* FoodChainCell.xib in Resources */,
+				6EB1841C2700301E00F0779F /* FoodMenuCell.xib in Resources */,
+				6EE107A226B4FEBC00456C28 /* ExpandedCell.xib in Resources */,
+				6E46BD1D26B483CD006B870D /* FoodChainViewCell.xib in Resources */,
+				6E46BD1726B47EE4006B870D /* NewFoodChainCell.xib in Resources */,
+				6E9F4A132530A68A0070DA6C /* Assets.xcassets in Resources */,
+				6EE107AE26B5867400456C28 /* CustomizedFoodMenuHeader.xib in Resources */,
+				6EB1842D270222DD00F0779F /* FoodMenuSectionHeader.xib in Resources */,
+				6E9F4A112530A68A0070DA6C /* Main.storyboard in Resources */,
+				6EDEBDC726AB29A0005F71C3 /* VendorCell.xib in Resources */,
+				6EB1841F2700DD2000F0779F /* foodmenu.json in Resources */,
+				6EE107AC26B572F500456C28 /* FoodMenuHeader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50717904E9BD62677C7CB145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hacktoberfest2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56075CFDAAA31516261AEC7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E9F4A022530A68A0070DA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE107B026B586D800456C28 /* CustomizedFoodMenuHeader.swift in Sources */,
+				6EE107AB26B572F500456C28 /* FoodMenuHeader.swift in Sources */,
+				6E46BD1926B48238006B870D /* FoodChainVC.swift in Sources */,
+				6EE1079E26B4FB3D00456C28 /* FoodJoinMenuVC.swift in Sources */,
+				6EDEBDB926A9D558005F71C3 /* Restaurant.swift in Sources */,
+				6EDEBDB426A9C4E9005F71C3 /* ClientHomeVC.swift in Sources */,
+				6EE107A426B5154A00456C28 /* FoodItem.swift in Sources */,
+				6E9F4A0E2530A68A0070DA6C /* AuthenticationVC.swift in Sources */,
+				6EDEBDB026A9B4B7005F71C3 /* Client.swift in Sources */,
+				6EDEBDB226A9BC43005F71C3 /* StringExt.swift in Sources */,
+				6EB1841727002DCE00F0779F /* FoodMenuVC.swift in Sources */,
+				6EDEBDC626AB29A0005F71C3 /* VendorCell.swift in Sources */,
+				6E46BD1326B4723D006B870D /* CustomizedFoodChainCell.swift in Sources */,
+				6EE107A126B4FEBC00456C28 /* ExpandedCell.swift in Sources */,
+				6EDEBDC326AB174F005F71C3 /* FoodChainCell.swift in Sources */,
+				6EDEBDAE26A98979005F71C3 /* UIColorExt.swift in Sources */,
+				6EDEBDB726A9D455005F71C3 /* FoodCourt.swift in Sources */,
+				6EDEBDA926A9628F005F71C3 /* AroundCircleButton.swift in Sources */,
+				6EB1841B2700301E00F0779F /* FoodMenuCell.swift in Sources */,
+				6E46BD1626B47EE4006B870D /* NewFoodChainCell.swift in Sources */,
+				6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */,
+				6E46BD1C26B483CD006B870D /* FoodChainViewCell.swift in Sources */,
+				6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */,
+				6EDEBDAB26A98934005F71C3 /* LoginVC.swift in Sources */,
+				6EB1842C270222DD00F0779F /* FoodMenuSectionHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E9F4A0F2530A68A0070DA6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E9F4A102530A68A0070DA6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E9F4A142530A68A0070DA6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E9F4A152530A68A0070DA6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E9F4A182530A68A0070DA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E9F4A192530A68A0070DA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E9F4A1B2530A68A0070DA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6F5020D04BDDE348247A50 /* Pods-Hacktoberfest2020.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GF9YN4K934;
+				INFOPLIST_FILE = Hacktoberfest2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trquthdev.Hacktoberfest2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hacktoberfest2020/Hacktoberfest2020-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E9F4A1C2530A68A0070DA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87640EB3FAE9ED0A3055F70 /* Pods-Hacktoberfest2020.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GF9YN4K934;
+				INFOPLIST_FILE = Hacktoberfest2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = trquthdev.Hacktoberfest2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hacktoberfest2020/Hacktoberfest2020-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E9F4A012530A6890070DA6C /* Build configuration list for PBXProject "Hacktoberfest2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9F4A182530A68A0070DA6C /* Debug */,
+				6E9F4A192530A68A0070DA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9F4A1A2530A68A0070DA6C /* Build configuration list for PBXNativeTarget "Hacktoberfest2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9F4A1B2530A68A0070DA6C /* Debug */,
+				6E9F4A1C2530A68A0070DA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E9F49FE2530A6890070DA6C /* Project object */;
+}

@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.4.4)
+  - BBBadgeBarButtonItem (1.2)
+  - FontAwesome.swift (1.9.1)
+  - GMStepper (2.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - BBBadgeBarButtonItem
+  - FontAwesome.swift
+  - GMStepper
+  - IQKeyboardManagerSwift
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BBBadgeBarButtonItem
+    - FontAwesome.swift
+    - GMStepper
+    - IQKeyboardManagerSwift
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  FontAwesome.swift: 6b52cb7be66eacd28cbfaa0ca7ffd0de4a186a1d
+  GMStepper: 89fb106944dfcc3aa3add7164e3ebd463ea2104b
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: cd99d963a260f1b694b038cabee6786a9ceb06bc
+
+COCOAPODS: 1.10.1

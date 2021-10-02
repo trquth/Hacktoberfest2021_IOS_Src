@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="133" id="KGk-i7-Jjw" customClass="ExpandedCell" customModule="Hacktoberfest2020" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="474" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="474" height="133"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eJJ-52-lo7">
+                        <rect key="frame" x="8" y="46" width="350" height="41.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8S-Kh-Ixy">
+                                <rect key="frame" x="0.0" y="0.0" width="76.5" height="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Pg-pU-AR5">
+                                <rect key="frame" x="0.0" y="27" width="29" height="14.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ip9-cX-itA" customClass="GMStepper" customModule="GMStepper">
+                        <rect key="frame" x="366" y="46.5" width="100" height="40"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="1Xu-H0-R75"/>
+                            <constraint firstAttribute="height" constant="40" id="iFS-H1-07v"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="buttonsBackgroundColor">
+                                <color key="value" red="0.5450980392" green="0.031372549020000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="labelBackgroundColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eJJ-52-lo7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0LY-Z1-xWA"/>
+                    <constraint firstItem="Ip9-cX-itA" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="75f-RA-rkV"/>
+                    <constraint firstItem="eJJ-52-lo7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="8UK-L9-JFv"/>
+                    <constraint firstItem="Ip9-cX-itA" firstAttribute="leading" secondItem="eJJ-52-lo7" secondAttribute="trailing" constant="8" id="e68-gH-Azn"/>
+                    <constraint firstAttribute="trailing" secondItem="Ip9-cX-itA" secondAttribute="trailing" constant="8" id="sYb-K7-zZQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="priceLbl" destination="0Pg-pU-AR5" id="pAd-ga-jph"/>
+                <outlet property="stepper" destination="Ip9-cX-itA" id="g75-SF-Dfi"/>
+                <outlet property="titleLbl" destination="S8S-Kh-Ixy" id="XGm-gC-BKu"/>
+            </connections>
+            <point key="canvasLocation" x="-115.94202898550725" y="104.12946428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
