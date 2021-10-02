@@ -170,8 +170,7 @@ extension FoodMenuVC: UITableViewDelegate, UITableViewDataSource{
        
         appDelegate.carItems[String(id)] = cartData
         setCartIconBadge(cartItemsCount)
-        
-      
+
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
