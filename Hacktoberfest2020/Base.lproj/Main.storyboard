@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3cl-V7-u2O">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="28N-5p-8Ro">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -301,6 +301,22 @@
             </objects>
             <point key="canvasLocation" x="3560.8695652173915" y="1600.4464285714284"/>
         </scene>
+        <!--OrdersVC-->
+        <scene sceneID="fvS-d5-oRX">
+            <objects>
+                <viewController id="VUt-Cc-da8" customClass="OrdersVC" customModule="Hacktoberfest2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZEV-d3-GKa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ORi-gY-0v1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pAP-Pj-tHd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CM1-lV-eOw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4382.608695652174" y="2367.8571428571427"/>
+        </scene>
         <!--Client HomeVC-->
         <scene sceneID="Fsl-Z6-rt6">
             <objects>
@@ -531,6 +547,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbN-sA-LhG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2650.7246376811595" y="1600.4464285714284"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tB9-VK-xZg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="28N-5p-8Ro" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cpg-um-eqV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VUt-Cc-da8" kind="relationship" relationship="rootViewController" id="1mr-Tu-1Bd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FiC-0O-xvx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3472.4637681159425" y="2367.8571428571427"/>
         </scene>
     </scenes>
     <resources>

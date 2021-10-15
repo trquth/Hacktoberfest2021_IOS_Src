@@ -1,0 +1,101 @@
+
+{
+    "data" : [
+        {
+            "cost": 6.49
+            "foodCourtId": 1
+            "foodCourtName": "Devonshire"
+            "id": 1
+            "name": "Crispy McNugget"
+            "restaurantId": 1
+            "restaurantName": "Unknown"
+            "timeToPrepareInMinutes": 10
+            "category":"Appetizer"
+            "count" : 1
+        },
+        {
+            "cost": 6.49
+            "foodCourtId": 1
+            "foodCourtName": "Devonshire"
+            "id": 2
+            "name": "BBQ McNuget"
+            "restaurantId": 1
+            "restaurantName": "Unknown"
+            "timeToPrepareInMinutes": 10
+            "category":"Appetizer"
+            "count" : 1
+        },
+        {
+            "cost": 5.49
+            "foodCourtId": 1
+            "foodCourtName": "Devonshire"
+            "id": 3
+            "name": "Mozzarella Sticks"
+            "restaurantId": 1
+            "restaurantName": "Unknown"
+            "timeToPrepareInMinutes": 10
+            "category":"Appetizer"
+            "count" : 1
+        },
+        {
+            "cost": 1.99
+            "foodCourtId": 1
+            "foodCourtName": "Devonshire"
+            "id": 4
+            "name": "Junior McChicken"
+            "restaurantId": 1
+            "restaurantName": "Unknown"
+            "timeToPrepareInMinutes": 10
+            "category":"Burger"
+            "count" : 1
+        },
+        {
+            "cost": 3.99
+            "foodCourtId": 1
+            "foodCourtName": "Devonshire"
+            "id": 5
+            "name": "Angus Grilled"
+            "restaurantId": 1
+            "restaurantName": "Unknown"
+            "timeToPrepareInMinutes": 10
+            "category":"Burger"
+            "count" : 1
+        },
+        {
+            "cost": 6.99
+            "foodCourtId": 1
+            "foodCourtName": "Devonshire"
+            "id": 6
+            "name": "Triple McChicken"
+            "restaurantId": 1
+            "restaurantName": "Unknown"
+            "timeToPrepareInMinutes": 10
+            "category":"Burger"
+            "count" : 1
+        },
+        {
+            "cost": 6.99
+            "foodCourtId": 1
+            "foodCourtName": "Devonshire"
+            "id": 7
+            "name": "Triple Thick Milkshake"
+            "restaurantId": 1
+            "restaurantName": "Unknown"
+            "timeToPrepareInMinutes": 10
+            "category":"Beverages"
+            "count" : 1
+        },
+        {
+            "cost": 3.49
+            "foodCourtId": 1
+            "foodCourtName": "Devonshire"
+            "id": 7
+            "name": "Pepsi"
+            "restaurantId": 1
+            "restaurantName": "Unknown"
+            "timeToPrepareInMinutes": 10
+            "category":"Beverages"
+            "count" : 1
+        }
+    ]
+}

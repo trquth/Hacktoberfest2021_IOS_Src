@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E12428A270F213800C11BC9 /* foodItem.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E124289270F213800C11BC9 /* foodItem.json */; };
+		6E12428C270F27BC00C11BC9 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E12428B270F27BC00C11BC9 /* OrdersVC.swift */; };
+		6E124293270F2DA900C11BC9 /* MenuBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E124292270F2DA900C11BC9 /* MenuBar.xib */; };
 		6E46BD1326B4723D006B870D /* CustomizedFoodChainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BD1226B4723D006B870D /* CustomizedFoodChainCell.swift */; };
 		6E46BD1626B47EE4006B870D /* NewFoodChainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BD1426B47EE4006B870D /* NewFoodChainCell.swift */; };
 		6E46BD1726B47EE4006B870D /* NewFoodChainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E46BD1526B47EE4006B870D /* NewFoodChainCell.xib */; };
 		6E46BD1926B48238006B870D /* FoodChainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BD1826B48238006B870D /* FoodChainVC.swift */; };
 		6E46BD1C26B483CD006B870D /* FoodChainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46BD1A26B483CD006B870D /* FoodChainViewCell.swift */; };
 		6E46BD1D26B483CD006B870D /* FoodChainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E46BD1B26B483CD006B870D /* FoodChainViewCell.xib */; };
+		6E9599222719DE4F00CFC56F /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9599212719DE4F00CFC56F /* MenuBar.swift */; };
+		6E9599252719DFC800CFC56F /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9599232719DFC800CFC56F /* MenuBarCell.swift */; };
+		6E9599262719DFC800CFC56F /* MenuBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9599242719DFC800CFC56F /* MenuBarCell.xib */; };
 		6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A092530A68A0070DA6C /* AppDelegate.swift */; };
 		6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */; };
 		6E9F4A0E2530A68A0070DA6C /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0D2530A68A0070DA6C /* AuthenticationVC.swift */; };
@@ -32,6 +38,8 @@
 		6ED88E5027088909003B7405 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED88E4F27088909003B7405 /* Extension.swift */; };
 		6ED88E532708A1D0003B7405 /* FoodCartHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED88E512708A1D0003B7405 /* FoodCartHeader.swift */; };
 		6ED88E542708A1D0003B7405 /* FoodCartHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED88E522708A1D0003B7405 /* FoodCartHeader.xib */; };
+		6ED88E572708A4F5003B7405 /* FoodCartFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED88E552708A4F5003B7405 /* FoodCartFooter.swift */; };
+		6ED88E582708A4F5003B7405 /* FoodCartFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED88E562708A4F5003B7405 /* FoodCartFooter.xib */; };
 		6EDEBDA926A9628F005F71C3 /* AroundCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDA826A9628F005F71C3 /* AroundCircleButton.swift */; };
 		6EDEBDAB26A98934005F71C3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDAA26A98934005F71C3 /* LoginVC.swift */; };
 		6EDEBDAE26A98979005F71C3 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEBDAD26A98979005F71C3 /* UIColorExt.swift */; };
@@ -57,6 +65,9 @@
 
 /* Begin PBXFileReference section */
 		4A6F5020D04BDDE348247A50 /* Pods-Hacktoberfest2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktoberfest2020.debug.xcconfig"; path = "Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020.debug.xcconfig"; sourceTree = "<group>"; };
+		6E124289270F213800C11BC9 /* foodItem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = foodItem.json; sourceTree = "<group>"; };
+		6E12428B270F27BC00C11BC9 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
+		6E124292270F2DA900C11BC9 /* MenuBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuBar.xib; sourceTree = "<group>"; };
 		6E46BD1226B4723D006B870D /* CustomizedFoodChainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedFoodChainCell.swift; sourceTree = "<group>"; };
 		6E46BD1426B47EE4006B870D /* NewFoodChainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFoodChainCell.swift; sourceTree = "<group>"; };
 		6E46BD1526B47EE4006B870D /* NewFoodChainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewFoodChainCell.xib; sourceTree = "<group>"; };
@@ -64,6 +75,9 @@
 		6E46BD1A26B483CD006B870D /* FoodChainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChainViewCell.swift; sourceTree = "<group>"; };
 		6E46BD1B26B483CD006B870D /* FoodChainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodChainViewCell.xib; sourceTree = "<group>"; };
 		6E46BD1E26B48BC7006B870D /* Hacktoberfest2020-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hacktoberfest2020-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E9599212719DE4F00CFC56F /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		6E9599232719DFC800CFC56F /* MenuBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarCell.swift; sourceTree = "<group>"; };
+		6E9599242719DFC800CFC56F /* MenuBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuBarCell.xib; sourceTree = "<group>"; };
 		6E9F4A062530A68A0070DA6C /* Hacktoberfest2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hacktoberfest2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9F4A092530A68A0070DA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +99,8 @@
 		6ED88E4F27088909003B7405 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		6ED88E512708A1D0003B7405 /* FoodCartHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCartHeader.swift; sourceTree = "<group>"; };
 		6ED88E522708A1D0003B7405 /* FoodCartHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCartHeader.xib; sourceTree = "<group>"; };
+		6ED88E552708A4F5003B7405 /* FoodCartFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCartFooter.swift; sourceTree = "<group>"; };
+		6ED88E562708A4F5003B7405 /* FoodCartFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCartFooter.xib; sourceTree = "<group>"; };
 		6EDEBDA826A9628F005F71C3 /* AroundCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundCircleButton.swift; sourceTree = "<group>"; };
 		6EDEBDAA26A98934005F71C3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		6EDEBDAD26A98979005F71C3 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
@@ -127,6 +143,17 @@
 				9A8D42A705D93C7968BC5138 /* Pods_Hacktoberfest2020.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E12428D270F2C4800C11BC9 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				6E124292270F2DA900C11BC9 /* MenuBar.xib */,
+				6E9599212719DE4F00CFC56F /* MenuBar.swift */,
+				6E9599232719DFC800CFC56F /* MenuBarCell.swift */,
+				6E9599242719DFC800CFC56F /* MenuBarCell.xib */,
+			);
+			path = MenuBar;
 			sourceTree = "<group>";
 		};
 		6E9F49FD2530A6890070DA6C = {
@@ -185,6 +212,7 @@
 			children = (
 				6EB1841E2700DD2000F0779F /* foodmenu.json */,
 				6EB184202700E23000F0779F /* demo.json */,
+				6E124289270F213800C11BC9 /* foodItem.json */,
 			);
 			path = DummyData;
 			sourceTree = "<group>";
@@ -196,6 +224,8 @@
 				6ED88E4B27080F9D003B7405 /* FoodCartCell.xib */,
 				6ED88E512708A1D0003B7405 /* FoodCartHeader.swift */,
 				6ED88E522708A1D0003B7405 /* FoodCartHeader.xib */,
+				6ED88E552708A4F5003B7405 /* FoodCartFooter.swift */,
+				6ED88E562708A4F5003B7405 /* FoodCartFooter.xib */,
 			);
 			path = FoodCart;
 			sourceTree = "<group>";
@@ -218,6 +248,7 @@
 				6EE1079D26B4FB3D00456C28 /* FoodJoinMenuVC.swift */,
 				6EB1841627002DCE00F0779F /* FoodMenuVC.swift */,
 				6ED88E472708067C003B7405 /* FoodCartVC.swift */,
+				6E12428B270F27BC00C11BC9 /* OrdersVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +292,7 @@
 		6EDEBDB526A9D0D6005F71C3 /* XIB */ = {
 			isa = PBXGroup;
 			children = (
+				6E12428D270F2C4800C11BC9 /* MenuBar */,
 				6ED88E4927080E91003B7405 /* FoodCart */,
 				6EB1841827002FE900F0779F /* FoodMenu */,
 				6EDEBDC026AB173E005F71C3 /* FoodChainCell.xib */,
@@ -360,12 +392,16 @@
 				6E9F4A132530A68A0070DA6C /* Assets.xcassets in Resources */,
 				6EE107AE26B5867400456C28 /* CustomizedFoodMenuHeader.xib in Resources */,
 				6EB1842D270222DD00F0779F /* FoodMenuSectionHeader.xib in Resources */,
+				6E9599262719DFC800CFC56F /* MenuBarCell.xib in Resources */,
 				6E9F4A112530A68A0070DA6C /* Main.storyboard in Resources */,
 				6EDEBDC726AB29A0005F71C3 /* VendorCell.xib in Resources */,
 				6EB1841F2700DD2000F0779F /* foodmenu.json in Resources */,
 				6ED88E4D27080F9D003B7405 /* FoodCartCell.xib in Resources */,
+				6E124293270F2DA900C11BC9 /* MenuBar.xib in Resources */,
 				6ED88E542708A1D0003B7405 /* FoodCartHeader.xib in Resources */,
 				6EE107AC26B572F500456C28 /* FoodMenuHeader.xib in Resources */,
+				6E12428A270F213800C11BC9 /* foodItem.json in Resources */,
+				6ED88E582708A4F5003B7405 /* FoodCartFooter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +462,7 @@
 				6ED88E482708067C003B7405 /* FoodCartVC.swift in Sources */,
 				6EDEBDB926A9D558005F71C3 /* Restaurant.swift in Sources */,
 				6EDEBDB426A9C4E9005F71C3 /* ClientHomeVC.swift in Sources */,
+				6E12428C270F27BC00C11BC9 /* OrdersVC.swift in Sources */,
 				6EE107A426B5154A00456C28 /* FoodItem.swift in Sources */,
 				6E9F4A0E2530A68A0070DA6C /* AuthenticationVC.swift in Sources */,
 				6EDEBDB026A9B4B7005F71C3 /* Client.swift in Sources */,
@@ -435,12 +472,15 @@
 				6E46BD1326B4723D006B870D /* CustomizedFoodChainCell.swift in Sources */,
 				6ED88E532708A1D0003B7405 /* FoodCartHeader.swift in Sources */,
 				6EE107A126B4FEBC00456C28 /* ExpandedCell.swift in Sources */,
+				6E9599222719DE4F00CFC56F /* MenuBar.swift in Sources */,
 				6EDEBDC326AB174F005F71C3 /* FoodChainCell.swift in Sources */,
 				6EDEBDAE26A98979005F71C3 /* UIColorExt.swift in Sources */,
 				6EDEBDB726A9D455005F71C3 /* FoodCourt.swift in Sources */,
 				6EDEBDA926A9628F005F71C3 /* AroundCircleButton.swift in Sources */,
 				6EB1841B2700301E00F0779F /* FoodMenuCell.swift in Sources */,
+				6ED88E572708A4F5003B7405 /* FoodCartFooter.swift in Sources */,
 				6E46BD1626B47EE4006B870D /* NewFoodChainCell.swift in Sources */,
+				6E9599252719DFC800CFC56F /* MenuBarCell.swift in Sources */,
 				6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */,
 				6ED88E5027088909003B7405 /* Extension.swift in Sources */,
 				6E46BD1C26B483CD006B870D /* FoodChainViewCell.swift in Sources */,

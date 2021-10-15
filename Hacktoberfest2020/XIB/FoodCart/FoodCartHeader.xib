@@ -13,7 +13,42 @@
         <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
             <rect key="frame" x="0.0" y="0.0" width="540" height="119"/>
             <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fNz-Pz-mkA">
+                    <rect key="frame" x="10" y="10" width="520" height="65"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uqZ-PJ-4zA">
+                            <rect key="frame" x="0.0" y="0.5" width="64" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="64" id="DZl-W8-Bhe"/>
+                                <constraint firstAttribute="width" constant="64" id="ItE-Dm-KXK"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3k-3s-Org">
+                            <rect key="frame" x="72" y="22.5" width="448" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ceK-PZ-yRf">
+                    <rect key="frame" x="0.0" y="118" width="540" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="UcX-0S-Efh"/>
+                    </constraints>
+                </arView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <constraints>
+                <constraint firstItem="fNz-Pz-mkA" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="10" id="GbB-9l-m8d"/>
+                <constraint firstAttribute="bottom" secondItem="ceK-PZ-yRf" secondAttribute="bottom" id="QOJ-pt-Ns5"/>
+                <constraint firstAttribute="trailing" secondItem="ceK-PZ-yRf" secondAttribute="trailing" id="ejk-TP-aQn"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="fNz-Pz-mkA" secondAttribute="bottom" constant="10" id="jmW-YC-0dD"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="fNz-Pz-mkA" secondAttribute="trailing" constant="10" id="mn5-va-YPP"/>
+                <constraint firstItem="fNz-Pz-mkA" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="10" id="sgu-J7-55Z"/>
+                <constraint firstItem="ceK-PZ-yRf" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="twc-Qf-aT0"/>
+            </constraints>
             <point key="canvasLocation" x="295.6521739130435" y="157.70089285714286"/>
         </collectionReusableView>
     </objects>
