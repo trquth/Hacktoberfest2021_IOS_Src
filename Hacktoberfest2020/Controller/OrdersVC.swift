@@ -11,7 +11,7 @@ class OrdersVC: UIViewController {
     
     lazy var menuBar: MenuBar = {
         let menuBar = Bundle.main.loadNibNamed("MenuBar", owner: self, options: nil)?.first as! MenuBar
-        print(menuBar)
+        menuBar.homeController = self
         return menuBar
     }()
 
@@ -37,6 +37,9 @@ class OrdersVC: UIViewController {
     
     }
     
+    
+    func scrollToMenuIndex(menuIndex: Int)  {
+    }
     
 
 }

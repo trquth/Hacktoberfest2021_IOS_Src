@@ -11,4 +11,8 @@ extension UIColor {
     convenience init(red: Int = 0, green: Int = 0, blue: Int = 0, alpha: Int = 255){
         self.init(red: CGFloat(red) / 255.0,green: CGFloat(green) / 255.0, blue: CGFloat(blue)  / 255.0, alpha : CGFloat(alpha / 255))
     }
+    
+    static func rgb(red: CGFloat, green: CGFloat, blue: CGFloat) -> UIColor {
+        return UIColor(red: red / 255, green: green / 255, blue: blue / 255, alpha: 1)
+    }
 }
