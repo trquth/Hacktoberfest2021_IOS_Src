@@ -14,7 +14,7 @@ class MenuBarCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        titleLbl.textColor = .white
+        titleLbl.textColor = .black
         
     }
 
