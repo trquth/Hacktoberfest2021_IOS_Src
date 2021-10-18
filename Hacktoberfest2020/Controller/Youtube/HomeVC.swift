@@ -17,6 +17,20 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Home"
+        navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.barStyle = .black
+        
+        print("bound \(view.bounds)")
+        print("frame \(view.frame)")
+        let titleLbl = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width - 32, height: view.frame.height))
+        titleLbl.text = "Home"
+        titleLbl.textColor = .white
+        //titleLbl.backgroundColor = .yellow
+        navigationItem.titleView = titleLbl
+        
+
+        
         setupMenuBar()
     }
     
