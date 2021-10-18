@@ -33,9 +33,6 @@
                 <constraint firstItem="g42-hB-sv4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gDF-R8-anq"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <connections>
-                <outlet property="menuBarCollectionView" destination="g42-hB-sv4" id="5C8-Fn-fXp"/>
-            </connections>
             <point key="canvasLocation" x="-1766.6666666666667" y="-436.27232142857139"/>
         </view>
     </objects>
