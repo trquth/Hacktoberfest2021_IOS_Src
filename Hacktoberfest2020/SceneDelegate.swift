@@ -23,7 +23,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        window?.rootViewController = OtherViewsVC()
 //        window?.makeKeyAndVisible()
         
-        
+        let statusBarBackgroundView = UIView()
+        statusBarBackgroundView.backgroundColor = UIColor.rgb(red: 194, green: 31, blue: 31)
+        window?.addSubview(statusBarBackgroundView)
+        statusBarBackgroundView.leadingAnchor.constraint(equalTo: window!.leadingAnchor).isActive = true
+        statusBarBackgroundView.trailingAnchor.constraint(equalTo: window!.trailingAnchor).isActive = true
+        statusBarBackgroundView.topAnchor.constraint(equalTo: window!.topAnchor).isActive = true
+        statusBarBackgroundView.heightAnchor.constraint(equalToConstant: 20).isActive = true
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
